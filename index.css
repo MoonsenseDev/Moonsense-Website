@@ -1,0 +1,51 @@
+@media (max-width: 976px) {
+    nav.mobile {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top:0px;
+        padding-left:0px;
+        padding-right:0px;
+        text-align: center;
+    }
+    div.normal {
+        display: none;
+    }
+}
+
+button {
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+button:hover, button:focus {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    -webkit-tap-highlight-color:transparent
+}
+
+.content {
+    line-height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+}
+
+.h1font {
+    color: white;
+    font-size: xx-large;
+}
+
+.pfont {
+    color: white;
+    margin-left: 0px;
+    font-size: large;
+}

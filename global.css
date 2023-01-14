@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+nav {
+    padding-top:1rem;
+    padding-left:15rem;
+    padding-right:15rem;
+} 
+
+body {
+    background-image: url("https://media.discordapp.net/attachments/911437617139167294/1063172399870267421/IMG_4926.webp?width=1920&height=1080");
+    font-family:'Work Sans',sans-serif;
+    font-weight:300;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer {
+    padding-left:15rem;
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    top:97%;
+    text-align:center;
+    color:white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+a.right {
+    padding-left: 15px;
+}
+
+.flex {
+    display:flex;
+}
+
+.flex-wrap {
+    flex-wrap:wrap;
+}
+
+.items-center {
+    align-items:center;
+}
+
+.justify-between {
+    justify-content:space-between;
+}
